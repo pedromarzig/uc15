@@ -1,0 +1,52 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
+
+
+body{
+    background-color: rgb(63, 3, 131);
+
+}
+
+h1{
+    color: rgb(240, 234, 247);
+    font-size: 65px;
+    text-align: center;
+    font-family: "Nosifer", sans-serif;
+
+    background-color: black;
+    
+}
+
+h2{
+     color: rgb(240, 234, 247);
+     font-size: 25px;
+     text-align: center;
+     font-family: "Nosifer", sans-serif;
+
+
+}
+
+img{
+    width: 250px;
+    height: auto;
+    margin: auto;
+    display: flex;
+}
+
+p{
+    color: white;
+    font-size: 20px;
+    font-family: "Nosifer", sans-serif;
+
+}
+
+li::marker{
+    color:red ;
+
+}
+
+li{
+    font-size: 25px;
+   font-family: "Nosifer", sans-serif;
+    color: azure;
+}

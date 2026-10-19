@@ -22,7 +22,7 @@ body{
 .bloco2{
     margin-left: 300px;
     background-image: url('/img/Trigre.jpg');
-    background-image: size;
+    background-size: cover;
     height: 300px;
     width: 400px;
 

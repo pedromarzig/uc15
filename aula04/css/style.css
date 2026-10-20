@@ -1,0 +1,29 @@
+body{
+    background-color: black;
+
+}
+
+
+#imagens{
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10%;
+    
+    
+}
+
+.f1{
+    
+    background-color: aqua;
+}
+
+.f2{
+    
+    background-color: beige;
+}
+
+.f3{
+    
+    background-color: blueviolet;
+}

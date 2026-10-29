@@ -1,0 +1,31 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+}
+
+table{
+    width: 100%;
+    max-width: 1500px;
+    border-collapse: collapse;
+    font-size: 35px;
+    padding: 5px;
+    margin-left: 55px;
+    
+}
+
+thead{
+    background-color: #f9f5ff;
+    text-align: left;
+}
+th,td{
+    border: 1px solid #333;
+    padding: 25px;
+}
+
+#variacao{
+    color: rgb(7, 177, 7);
+}
+
+#queda{
+    color: rgb(243, 28, 28);
+}

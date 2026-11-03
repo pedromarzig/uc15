@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table class="table-container">
+        <thead>
+                <tr>
+                    <th rowspan="2">REGIÃO / FILIAL</th>
+                    <th rowspan="2">CATEGORIA</th>
+                    <th colspan="2" class="th-valores">VALORES (R$)</th>
+                    <th rowspan="2">CRESCIMENTO</th>
+                    <th rowspan="2">STATUS DA META</th>
+                </tr>
+                <tr>
+                    <th class="th-sub">Q3 / 2025</th>
+                    <th class="th-sub">Q3 / 2026</th>
+                </tr>
+            </thead>
+        <tbody>
+               
+                <tr>
+                    <td rowspan="3" class="region">Região Sudeste</td>
+                    <td class="highlight">São Paulo (Matriz)</td>
+                    <td class="highlight">1.250.000</td>
+                    <td class="highlight">1.480.000</td>
+                    <td class="positive">+18.4%</td>
+                    <td><span class="badge badge-success">Atingida</span></td>
+                </tr>
+                <tr>
+                    <td>Rio de Janeiro</td>
+                    <td>620.000</td>
+                    <td>690.000</td>
+                    <td class="positive">+11.2%</td>
+                    <td><span class="badge badge-success">Atingida</span></td>
+                </tr>
+                <tr>
+                    <td>Belo Horizonte</td>
+                    <td>410.000</td>
+                    <td>395.000</td>
+                    <td class="negative">-3.6%</td>
+                    <td><span class="badge badge-danger">Não Atingida</span></td>
+                </tr>
+
+                
+                <tr class="section-divider">
+                    <td rowspan="2" class="region">Região Sul</td>
+                    <td class="highlight">Curitiba</td>
+                    <td class="highlight">540.000</td>
+                    <td class="highlight">610.000</td>
+                    <td class="positive">+12.9%</td>
+                    <td><span class="badge badge-success">Atingida</span></td>
+                </tr>
+                <tr>
+                    <td>Porto Alegre</td>
+                    <td>480.000</td>
+                    <td>520.000</td>
+                    <td class="positive">+8.3%</td>
+                    <td><span class="badge badge-success">Atingida</span></td>
+                </tr>
+
+                
+                <tr class="total-row">
+                    <td colspan="2" class="total-label">TOTAL CONSOLIDADO</td>
+                    <td class="highlight">3.300.000</td>
+                    <td class="highlight">3.695.000</td>
+                    <td class="positive">+11.9%</td>
+                    <td><span class="badge badge-success-light">Geral: Sucesso</span></td>
+                </tr>
+            </tbody>
+    </table>
+</body>
+</html>

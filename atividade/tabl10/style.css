@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f9;
+    margin: 40px;
+    color: #2D3748;
+}
+
+.table-container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    max-width: 1200px;
+}
+
+table {
+    width: 100%;
+    max-width: 1200px;
+    border-collapse: collapse;
+}
+
+
+thead {
+    background-color: #0d1527;
+    color: #ffffff;
+}
+
+.th-valores {
+    text-align: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding-bottom: 8px;
+}
+
+.th-sub {
+    text-align: left;
+    padding-top: 8px;
+}
+
+td {
+    padding: 16px 20px;
+    font-size: 14px;
+    border-bottom: 1px solid #edf2f7;
+    vertical-align: middle;
+}
+
+
+.region {
+    font-weight: bold;
+    color: #1a202c;
+    vertical-align: middle;
+}
+
+.highlight {
+    font-weight: bold;
+    color: #1a202c;
+}
+
+
+.positive {
+    color: #25a244;
+    font-weight: bold;
+}
+
+.negative {
+    color: #e53e3e;
+    font-weight: bold;
+}
+
+
+.badge {
+    display: inline-block;
+    padding: 6px 14px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.badge-success {
+    background-color: #e6f4ea;
+    color: #1e7e34;
+}
+
+.badge-danger {
+    background-color: #fce8e6;
+    color: #c5221f;
+}
+
+.badge-success-light {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+
+.section-divider td {
+    border-top: 2px solid #cbd5e0;
+}
+
+.total-row {
+    background-color: #edf2f7;
+}
+
+.total-row td {
+    border-top: 2px solid #cbd5e0;
+    border-bottom: none;
+}
+
+.total-label {
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}

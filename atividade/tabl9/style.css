@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 40px;
+    color: #2D3748; 
+    font-size: 25px;
+}
+
+table {
+    width: 100%;
+    max-width: 1200px;
+    border-collapse: collapse;
+}
+
+th, td {
+ border: 1px solid #dddddd; 
+  padding: 20px;
+  text-align: left;
+}
+
+#blue{
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+}
+
+#cinza{
+    background-color: rgb(209, 206, 206);
+}
+
+span{
+    color: blue;
+}

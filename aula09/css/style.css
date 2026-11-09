@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.logo{
+    width: 300px;
+
+}
+
+.categoria{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /*distribui os espaços de forma igual*/
+
+}
+
+.menu-principal ul{
+    list-style: none; /* rome a marcação */
+
+}
+
+.menu-principal ul li{
+    display: inline; /* • Fica na mesma linha (inline): O elemento não força uma quebra de linha e fica posicionado lado a lado com outros elementos na horizontal.
+    • Aceita dimensões e espaçamentos (block): Ao contrário dos elementos inline comuns, você pode definir largura (width), altura (height), além de margens (margin) e preenchimentos (padding) verticais e horizontai*/
+
+}
+
+.menu-principal ul li a{
+    background-color:rgb(245, 245, 245); ;
+    color: rgb(43,16 ,161); /*Cor do texto do menu*/
+    text-decoration: none; /*tira a linha do link*/
+    text-transform: uppercase; /*deixa todo texto em Maiúsculo*/
+    padding: 5px 20px; 
+    border: 1px solid transparent; 
+    font-size: 20px;
+    border-radius: 30px;
+    
+
+}
+
+.menu-principal ul li a:hover{/*transição quando para o mouse sobre o texto*/
+    background-color: rgb(226, 64, 64);
+    color: rgb(5, 5 ,5);
+    transform: 0.60s ease; /*Pausa de exibição*/
+}
+
+#pagina-home{
+    height: 613px;
+    background-image: linear-gradient(rgb(221, 221, 221), rgba(241, 238, 238, 0.116)), url(../img/images.jpg);
+    background-size: cover;
+    background-position: center;
+}

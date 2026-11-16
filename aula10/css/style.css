@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nosifer&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Tuffy:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+body{
+    font-family: "Dm Sans", sans-serif;
+    min-height: 100vh; /* Altura minima da página - vh - tamanho responsividade*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*uma caixa para formulários */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+h1{
+    padding-top: 5px;
+    margin: 0;
+    text-align: center;
+    color: rgb(29,28,28 );
+    font-size: 100px;
+}
+
+h2{
+    padding-bottom: 50px ;
+    margin: 0;
+    text-align: center;
+    color: rgb(175,171,171);
+    font-size: 20px;
+}
+
+.campo{
+    display: flex; /*Flexivel - Ajusta*/
+    flex-direction: column; /* coluna */
+
+}
+
+.formulario{
+    background-color: rgb(240, 239,239 );
+    border: 1px solid black;
+    padding: 5px 100px;
+    border-radius: 35px;
+    color: black;
+    flex-direction: column;
+    max-width: 600px;
+
+
+}
+
+.botao{
+    padding-top: 5px ;
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+ background-color: rgb(12, 89, 124);
+ color: aliceblue;
+  border: none;
+ padding: 20px 50px;
+ cursor: pointer; /*transforma o curso em opção de clique*/
+ font-size: 15px;
+ border-radius: 10px;
+}
+
+input{
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(49, 42, 42);
+}
+
+select{
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(49, 42, 42);
+}
+
+
+button:hover{
+    transition: background-colo 0.4s ease, color 0.4s ease, border 0.3s ease;
+    background-color: rgb(91, 126, 102);
+    color: black;
+
+
+}
+
+#imagem{
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+#imagem::file-selector-button{
+    margin-right: 10px;
+    padding: 5px 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(14, 141,99);
+    color: aliceblue;
+}

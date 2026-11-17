@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/form2/css/style.css">
+</head>
+<body>
+    <div class="formulario">
+        <form>
+            <div class="campo">
+                <label for="nomeC">Nome Completo:</label>
+                <input type="text" id="nome" required>
+            </div>
+
+            <div class="campo">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" required>
+
+            </div>
+
+            <div class="campo">
+                <label for="endereco">Endereço:</label>
+                <input type="text" id="endereco" required>
+            </div>
+
+            <div class="campo">
+                <label for="bairro">Bairro:</label>
+                <input type="text" id="bairro" required>
+            </div>
+
+            <div class="campo">
+                <label for="cidade">Cidade:</label>
+                <input type="cidade" id="cidade">
+            </div>
+
+            <div class="campo">
+                <label for="telefone">Telefone fix ou Celular: </label>
+                <input type="tel" id="telefone" required>
+            </div>
+
+            <div class="campo">
+                <label for="service">Serviços em couro:</label>
+                <input type="checkbox" id="check1" > Bancos em couro - 100% Legitimo
+                <input type="checkbox" id="check2"> Bancos em couro- Misto
+                <input type="checkbox" id="check3"> Bancos em couro - 100% Sintético
+                <input type="checkbox" id="check4"> Volante em couro 
+                <input type="checkbox" id="check5"> Revestimento da manopla e coifa
+                <input type="checkbox" id="check6"> Revestimento de apio de braço
+            </div>
+
+            <div class="campo">
+                <label for="Restauração">Restauração e tapeçaria</label>
+                <input type="checkbox"> Restauração Completa de carros antigos
+                <input type="checkbox">Somente troca do teto
+                <input type="checkbox"> Somente troca do assoalho
+                <input type="checkbox">Reparos em estrutura dos bancos e ferragens
+                <input type="checkbox">Hidratação e higienização dos bancos
+            </div>
+
+
+            <div class="campo">
+                <label for="acessorios">Acessorios</label>
+                <input type="checkbox">Kit Hidratação p/Couro
+                <input type="checkbox">Tapetes personalizados
+                <input type="checkbox">Adaptação de apoio de braço
+            </div>
+
+            <div class="campo">
+            <label for="Marca">Marca fabricante: </label>
+            <select name="mercas" id="marcas" >
+                <option>Please Select</option>
+                <option>Borkar</option>
+                <option>Kapazi Automotivo</option>
+                <option>Titanium Acessórios Automotivos</option>
+                <option>Luxcar</option>
+                <option>Ziel Technology Brasil</option>
+                <option>Tapete Exclusive</option>
+            </select>
+            
+        </div>
+
+        <div class="campo">
+            <label for="pagamento">Especifique a forma de pagamento:</label>
+            <input type="radio">Á vista
+            <input type="radio">Deposito em conta corrente
+            <input type="radio">Doc ou tansferência bancaria
+            <input type="radio">Parcelado em até 4x no cartão de crédito
+            </div>
+
+            <div class="campo">
+                <label for="textInfo">Diga-nos com maior riqueza de detalhe o serviço de interesse:</label>
+                <textarea name="comentario" id="comentario" rows="4"></textarea>
+            </div>
+
+            <div class="botao">
+                <button class="button" type="submit">Enviar Formulário</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

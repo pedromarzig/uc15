@@ -1,23 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/form2/css/style.css">
+    <title>Formulário de Orçamento</title>
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
     <div class="formulario">
         <form>
             <div class="campo">
-                <label for="nomeC">Nome Completo:</label>
+                <label for="nome">Nome completo:</label>
                 <input type="text" id="nome" required>
             </div>
 
             <div class="campo">
                 <label for="email">E-mail:</label>
                 <input type="email" id="email" required>
-
             </div>
 
             <div class="campo">
@@ -32,70 +31,86 @@
 
             <div class="campo">
                 <label for="cidade">Cidade:</label>
-                <input type="cidade" id="cidade">
+                <input type="text" id="cidade">
             </div>
 
             <div class="campo">
-                <label for="telefone">Telefone fix ou Celular: </label>
+                <label for="telefone">Telefone fixo ou celular:</label>
                 <input type="tel" id="telefone" required>
             </div>
 
             <div class="campo">
-                <label for="service">Serviços em couro:</label>
-                <input type="checkbox" id="check1" > Bancos em couro - 100% Legitimo
-                <input type="checkbox" id="check2"> Bancos em couro- Misto
-                <input type="checkbox" id="check3"> Bancos em couro - 100% Sintético
-                <input type="checkbox" id="check4"> Volante em couro 
-                <input type="checkbox" id="check5"> Revestimento da manopla e coifa
-                <input type="checkbox" id="check6"> Revestimento de apio de braço
+                <label>Serviços em couro:</label>
+                <div class="opcoes">
+                    <label><input type="checkbox" id="check1"> Bancos em couro - 100% Legítimo</label>
+                    <label><input type="checkbox" id="check2"> Bancos em couro - Misto</label>
+                    <label><input type="checkbox" id="check3"> Bancos em couro - 100% Sintético</label>
+                    <label><input type="checkbox" id="check4"> Volante em couro</label>
+                    <label><input type="checkbox" id="check5"> Revestimento da manopla e coifa</label>
+                    <label><input type="checkbox" id="check6"> Revestimento de apoio de braço</label>
+                </div>
             </div>
 
             <div class="campo">
-                <label for="Restauração">Restauração e tapeçaria</label>
-                <input type="checkbox"> Restauração Completa de carros antigos
-                <input type="checkbox">Somente troca do teto
-                <input type="checkbox"> Somente troca do assoalho
-                <input type="checkbox">Reparos em estrutura dos bancos e ferragens
-                <input type="checkbox">Hidratação e higienização dos bancos
-            </div>
-
-
-            <div class="campo">
-                <label for="acessorios">Acessorios</label>
-                <input type="checkbox">Kit Hidratação p/Couro
-                <input type="checkbox">Tapetes personalizados
-                <input type="checkbox">Adaptação de apoio de braço
+                <label>Restauração e tapeçaria:</label>
+                <div class="opcoes">
+                    <label><input type="checkbox"> Restauração completa de carros antigos</label>
+                    <label><input type="checkbox"> Somente troca do teto</label>
+                    <label><input type="checkbox"> Somente troca do assoalho</label>
+                    <label><input type="checkbox"> Reparos em estrutura dos bancos e ferragens</label>
+                    <label><input type="checkbox"> Hidratação e higienização dos bancos</label>
+                </div>
             </div>
 
             <div class="campo">
-            <label for="Marca">Marca fabricante: </label>
-            <select name="mercas" id="marcas" >
-                <option>Please Select</option>
-                <option>Borkar</option>
-                <option>Kapazi Automotivo</option>
-                <option>Titanium Acessórios Automotivos</option>
-                <option>Luxcar</option>
-                <option>Ziel Technology Brasil</option>
-                <option>Tapete Exclusive</option>
-            </select>
-            
-        </div>
-
-        <div class="campo">
-            <label for="pagamento">Especifique a forma de pagamento:</label>
-            <input type="radio">Á vista
-            <input type="radio">Deposito em conta corrente
-            <input type="radio">Doc ou tansferência bancaria
-            <input type="radio">Parcelado em até 4x no cartão de crédito
+                <label>Acessórios:</label>
+                <div class="opcoes">
+                    <label><input type="checkbox"> Kit Hidratação p/ Couro</label>
+                    <label><input type="checkbox"> Tapetes personalizados</label>
+                    <label><input type="checkbox"> Adaptação de apoio de braço</label>
+                </div>
             </div>
 
             <div class="campo">
-                <label for="textInfo">Diga-nos com maior riqueza de detalhe o serviço de interesse:</label>
+                <label for="marcas">Marca fabricante:</label>
+                <select name="marcas" id="marcas">
+                    <option>Please Select</option>
+                    <option>Borkar</option>
+                    <option>Kapazi Automotivo</option>
+                    <option>Titanium Acessórios Automotivos</option>
+                    <option>Luxcar</option>
+                    <option>Ziel Technology Brasil</option>
+                    <option>Tapete Exclusive</option>
+                </select>
+            </div>
+
+            <div class="campo">
+                <label for="modelo">Nome modelo:</label>
+                <input type="text" id="modelo">
+            </div>
+
+            <div class="campo">
+                <label for="ano">Ano de fabricação:</label>
+                <input type="text" id="ano">
+            </div>
+
+            <div class="campo">
+                <label>Especifique a forma de pagamento:</label>
+                <div class="opcoes">
+                    <label><input type="radio" name="pagamento"> À vista</label>
+                    <label><input type="radio" name="pagamento"> Depósito em conta corrente</label>
+                    <label><input type="radio" name="pagamento"> Doc ou transferência bancária</label>
+                    <label><input type="radio" name="pagamento"> Parcelado até 4x no cartão de crédito.</label>
+                </div>
+            </div>
+
+            <div class="campo">
+                <label for="comentario">Diga-nos com maior riqueza de detalhes o serviço de interesse:</label>
                 <textarea name="comentario" id="comentario" rows="4"></textarea>
             </div>
 
             <div class="botao">
-                <button class="button" type="submit">Enviar Formulário</button>
+                <button class="button" type="submit">Enviar formulário</button>
             </div>
         </form>
     </div>
